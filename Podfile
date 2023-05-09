@@ -11,12 +11,13 @@ target 'a11y' do
   target 'a11yTests' do
     inherit! :search_paths
     # Pods for testing
-    pod "GTXiLib", :modular_headers => true
+    pod "GTXiLib", '= 5.1.2'
+    pod 'ViewInspector'
   end
 
   target 'a11yUITests' do
     # Pods for testing
-    pod "GTXiLib", :modular_headers => true
+    pod "GTXiLib", '= 5.1.2'
   end
 
 end

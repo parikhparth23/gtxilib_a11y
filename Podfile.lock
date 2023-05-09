@@ -1212,27 +1212,33 @@ PODS:
     - abseil/base/base_internal
     - abseil/base/config
     - abseil/meta/type_traits
-  - GTXiLib (5.0):
-    - GTXiLib/GTXiLib (= 5.0)
-  - GTXiLib/GTXiLib (5.0):
+  - GTXiLib (5.1.2):
+    - GTXiLib/GTXiLib (= 5.1.2)
+  - GTXiLib/GTXiLib (5.1.2):
+    - GTXiLib/GTXOOPLib
+  - GTXiLib/GTXOOPLib (5.1.2):
     - abseil
     - tinyxml
   - tinyxml (2.1.0)
+  - ViewInspector (0.9.6)
 
 DEPENDENCIES:
-  - GTXiLib
+  - GTXiLib (= 5.1.2)
+  - ViewInspector
 
 SPEC REPOS:
   trunk:
     - abseil
     - GTXiLib
     - tinyxml
+    - ViewInspector
 
 SPEC CHECKSUMS:
   abseil: 2524155b6bedfbb4158dd2403e604efb3b572a15
-  GTXiLib: 35f21a189bf595d9c9b7542e6d57770abd94bf6b
+  GTXiLib: 5b3ab1253a2f8319e9ca01f88de4bff91b410d01
   tinyxml: 41d718babd106ac5d39d4e98b43c835d3b9080d8
+  ViewInspector: c36fd1c43b29f708dfbdc17d2778852e46bac8e0
 
-PODFILE CHECKSUM: 9abcd6c14a1cf662c8c282c179c039068e7f815a
+PODFILE CHECKSUM: a46513ba9c5bb609ec67b4353f88abd14a3eca3f
 
 COCOAPODS: 1.11.3

@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-a11y-a11yUITests/Pods-a11y-a11yUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/GTXiLib/GTXiLib.framework
+${BUILT_PRODUCTS_DIR}/abseil/absl.framework
+${BUILT_PRODUCTS_DIR}/tinyxml/tinyxml.framework
