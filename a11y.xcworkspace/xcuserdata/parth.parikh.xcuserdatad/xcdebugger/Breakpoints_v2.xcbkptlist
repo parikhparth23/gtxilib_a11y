@@ -7,95 +7,68 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "6310DE8F-F4ED-4C08-8382-64446B346619"
+            uuid = "AE30DF16-95F8-486D-BE9A-B9461A081DE2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "a11yUITests/a11yUITests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "setUpWithError()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AE30DF16-95F8-486D-BE9A-B9461A081DE2 - b3e8bb6605cb4f61"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "a11yUITests.a11yUITests.setUpWithError() throws -&gt; ()"
+                  moduleName = "a11yUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/parth.parikh/Desktop/a11y/a11yUITests/a11yUITests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "AE30DF16-95F8-486D-BE9A-B9461A081DE2 - b3e8bb6605cb4f61"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "a11yUITests.a11yUITests.setUpWithError() throws -&gt; ()"
+                  moduleName = "a11yUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/parth.parikh/Desktop/a11y/a11yUITests/a11yUITests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "172">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4568FC50-6FB0-4A9E-9CA7-BD377E64626C"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "a11yTests/a11yTests.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "21"
-            endingLineNumber = "21"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
             landmarkName = "setUpWithError()"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "6310DE8F-F4ED-4C08-8382-64446B346619 - 6a3c07beba812ec8"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "static a11yTests.a11yTests.setUpWithError() throws -&gt; ()"
-                  moduleName = "a11yTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/parth.parikh/Desktop/a11y/a11yTests/a11yTests.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "21"
-                  endingLineNumber = "21"
-                  offsetFromSymbolStart = "80">
-               </Location>
-               <Location
-                  uuid = "6310DE8F-F4ED-4C08-8382-64446B346619 - 6a3c07beba812ec8"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "static a11yTests.a11yTests.setUpWithError() throws -&gt; ()"
-                  moduleName = "a11yTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/parth.parikh/Desktop/a11y/a11yTests/a11yTests.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "21"
-                  endingLineNumber = "21"
-                  offsetFromSymbolStart = "164">
-               </Location>
-               <Location
-                  uuid = "6310DE8F-F4ED-4C08-8382-64446B346619 - 6a3c07beba812e65"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "static a11yTests.a11yTests.setUpWithError() throws -&gt; ()"
-                  moduleName = "a11yTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/parth.parikh/Desktop/a11y/a11yTests/a11yTests.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "24"
-                  endingLineNumber = "24"
-                  offsetFromSymbolStart = "12">
-               </Location>
-               <Location
-                  uuid = "6310DE8F-F4ED-4C08-8382-64446B346619 - e6c6d666fc0ba806"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "a11yTests.a11yTests.setUp() -&gt; ()"
-                  moduleName = "a11yTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/parth.parikh/Desktop/a11y/a11yTests/a11yTests.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "21"
-                  endingLineNumber = "21"
-                  offsetFromSymbolStart = "84">
-               </Location>
-               <Location
-                  uuid = "6310DE8F-F4ED-4C08-8382-64446B346619 - e6c6d666fc0ba806"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "a11yTests.a11yTests.setUp() -&gt; ()"
-                  moduleName = "a11yTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/parth.parikh/Desktop/a11y/a11yTests/a11yTests.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "21"
-                  endingLineNumber = "21"
-                  offsetFromSymbolStart = "168">
-               </Location>
-               <Location
-                  uuid = "6310DE8F-F4ED-4C08-8382-64446B346619 - 7c136ba3133a059b"
+                  uuid = "4568FC50-6FB0-4A9E-9CA7-BD377E64626C - 7c136ba3133a05d9"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -105,12 +78,12 @@
                   urlString = "file:///Users/parth.parikh/Desktop/a11y/a11yTests/a11yTests.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "21"
-                  endingLineNumber = "21"
-                  offsetFromSymbolStart = "88">
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "140">
                </Location>
                <Location
-                  uuid = "6310DE8F-F4ED-4C08-8382-64446B346619 - 7c136ba3133a059b"
+                  uuid = "4568FC50-6FB0-4A9E-9CA7-BD377E64626C - 7c136ba3133a05d9"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -120,9 +93,9 @@
                   urlString = "file:///Users/parth.parikh/Desktop/a11y/a11yTests/a11yTests.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "21"
-                  endingLineNumber = "21"
-                  offsetFromSymbolStart = "172">
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "224">
                </Location>
             </Locations>
          </BreakpointContent>

@@ -17,6 +17,8 @@ final class a11yTests: XCTestCase {
   
   var game: ContentView!
   override func setUpWithError() throws  {
+    super.setUp()
+
     // Put setup code here. This method is called before the invocation of each test method in the class.
     let checksToBeInstalled: [GTXChecking] = GTXChecksCollection.allGTXChecks()
     let tmp = GTXTestSuite.init(allTestsIn: a11yTests.self)
@@ -32,6 +34,8 @@ final class a11yTests: XCTestCase {
     
     let subject = ContentView()
     let text = try subject.inspect().vStack().text(1).string()
+    let image = try subject.inspect().vStack().image(0).actualImage()
+    XCTAssertEqual(image, Image(systemName: "globe"))
     XCTAssertEqual(text, "Hello, world!")
     //      let matcher = grey_accessibilityID("signInWithEmailButton")
     //      let action = grey_typeText("Sample Swift Test")
