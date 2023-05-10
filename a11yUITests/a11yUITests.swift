@@ -10,7 +10,7 @@ import XCTest
 
 final class a11yUITests: XCTestCase {
   
-  override func setUpWithError() throws {
+  override class func setUp() {
     // Put setup code here. This method is called before the invocation of each test method in the class.
     let checksToBeInstalled: [GTXChecking] = GTXChecksCollection.allGTXChecks()
     let tmp = GTXTestSuite.init(allTestsIn: a11yUITests.self)
@@ -30,7 +30,6 @@ final class a11yUITests: XCTestCase {
     let app = XCUIApplication()
     app.launch()
     XCTAssertTrue(app.staticTexts["Hello, world!"].exists)
-    app.staticTexts["Hello, world!"].accessibilityElementIsFocused()
     // Use XCTAssert and related functions to verify your tests produce the correct results.
   }
   
