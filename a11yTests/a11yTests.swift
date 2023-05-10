@@ -16,7 +16,7 @@ import XCTest
 final class a11yTests: XCTestCase {
   
   var game: ContentView!
-  override func setUpWithError() throws  {
+  override class func setUp() {
     // Put setup code here. This method is called before the invocation of each test method in the class.
     let checksToBeInstalled: [GTXChecking] = GTXChecksCollection.allGTXChecks()
     let tmp = GTXTestSuite.init(allTestsIn: a11yTests.self)

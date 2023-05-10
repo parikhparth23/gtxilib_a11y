@@ -13,7 +13,7 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-//          Text("Hello, world!").font(.system(size: 1))
+                .accessibilityLabel("globeIcon")
           Text("Hello, world!")
           Circle().accessibilityElement()
         }

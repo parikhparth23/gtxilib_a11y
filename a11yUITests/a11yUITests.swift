@@ -30,7 +30,7 @@ final class a11yUITests: XCTestCase {
     let app = XCUIApplication()
     app.launch()
     XCTAssertTrue(app.staticTexts["Hello, world!"].exists)
-    
+    app.staticTexts["Hello, world!"].accessibilityElementIsFocused()
     // Use XCTAssert and related functions to verify your tests produce the correct results.
   }
   
